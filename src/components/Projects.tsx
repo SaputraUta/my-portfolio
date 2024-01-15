@@ -2,7 +2,7 @@ import ProjectList from "./ProjectList";
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-slate-100 py-10 relative">
+    <div id="projects" className="min-h-screen bg-slate-100 py-10 relative">
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-slate-700 tracking-wider">
         Projects
       </h1>

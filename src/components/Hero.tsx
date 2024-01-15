@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <div className="relative max-h-screen h-screen flex flex-col md:flex-row gap-5 md:gap-24 mx-10 md:justify-center md:pt-32 lg:pt-44 xl:pt-56">
+    <div id="about" className="relative max-h-screen h-screen flex flex-col md:flex-row gap-5 md:gap-24 mx-10 md:justify-center pt-28 md:pt-32 lg:pt-44 xl:pt-56">
       <div className="mx-auto rounded-full shadow-2xl max-w-[270px] max-h-[270px] md:max-w-xs md:max-h-[320px] md:mt-12 lg:mt-4 xl:mt-0 -z-10">
         <img
           src="/photo.png"

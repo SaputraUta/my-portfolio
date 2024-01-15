@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="min-h-screen py-10 relative">
+    <div id="skills" className="min-h-screen py-10 relative">
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-slate-700 tracking-wider">
         Skills
       </h1>
