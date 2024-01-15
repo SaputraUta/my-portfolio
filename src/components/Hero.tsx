@@ -39,7 +39,7 @@ export default function Hero() {
           <b> JavaScript, Typescript, PHP</b> and <b>SQL </b>
           languages. I also have knowledge in the use of frameworks using
           <b> NextJs </b>
-          and also <b>Laravel</b>. I have experience working with <b>teams</b>
+          and also <b>Laravel</b>. I have experience working with <b>teams </b>
           and <b>individuals </b>
           so I am experienced in using <b>Git</b> and <b>GitHub</b> as version
           control. I have <b>high curiosity</b> and <b>passion</b> to{" "}
