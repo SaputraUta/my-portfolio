@@ -38,7 +38,10 @@ export default function Navbar() {
 
   return (
     <div className="relative">
-      <button className="m-4 fixed z-50 p-2 md:hidden" onClick={() => setSideBar(true)}>
+      <button
+        className="m-4 fixed z-50 p-2 md:hidden"
+        onClick={() => setSideBar(true)}
+      >
         <GiHamburgerMenu size={30} />
       </button>
       <nav
