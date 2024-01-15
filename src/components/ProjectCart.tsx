@@ -14,7 +14,7 @@ export default function ProjectCart({ title, img, body, link }: Props) {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5,
+      threshold: 0.2,
     };
 
     const handleIntersection = (entries: IntersectionObserverEntry[]) => {
@@ -41,9 +41,10 @@ export default function ProjectCart({ title, img, body, link }: Props) {
   }, []);
 
   return (
-    <div ref={projectCartRef}
+    <div
+      ref={projectCartRef}
       className={`p-4 rounded-lg border-4 border-slate-700 justify-between flex flex-col bg-white max-w-sm sm:max-w-md items-center transform transition duration-500 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
       }`}
     >
       <div className="flex flex-col gap-2">

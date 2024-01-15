@@ -1,21 +1,59 @@
+import { useEffect, useRef, useState } from "react";
+
 export default function Skills() {
+  const [isVisible, setIsVisible] = useState(false);
+  const skillRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.2,
+    };
+
+    const handleIntersection = (entries: IntersectionObserverEntry[]) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    if (skillRef.current) {
+      observer.observe(skillRef.current);
+    }
+
+    return () => {
+      if (skillRef.current) {
+        observer.unobserve(skillRef.current);
+      }
+    };
+  }, []);
+  console.log(isVisible)
   return (
-    <div id="skills" className="min-h-screen py-10 relative">
+    <div ref={skillRef} id="skills" className="min-h-screen py-10 relative">
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-slate-700 tracking-wider">
         Skills
       </h1>
       <div className="my-10" />
-      <div className="z-40 relative">
+      <div
+        className={`z-40 relative transition transform duration-500 ${
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
+        }`}
+      >
         <div className="mt-10 mx-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-items-center items-center gap-20 lg:gap-10 lg:gap-y-20">
           <img
             src="javascript.png"
             alt="JavaScript"
-            className=" max-w-[180px]"
+            className="max-w-[180px]"
           />
           <img
             src="typescript.png"
             alt="TypeScript"
-            className=" max-w-[180px]"
+            className="max-w-[180px]"
           />
           <img src="php.png" alt="PHP" className=" max-w-[180px]" />
           <img src="sql.png" alt="SQL" className=" max-w-[180px]" />
