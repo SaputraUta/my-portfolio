@@ -74,7 +74,7 @@ export default function Navbar() {
         </a>
       </nav>
 
-      <nav className="hidden md:flex justify-center items-center gap-16 lg:gap-24 xl:gap-32 w-full py-8">
+      <nav className="hidden fixed top-0 z-50 md:flex justify-center items-center gap-16 lg:gap-24 xl:gap-32 w-full py-8">
         <a
           href="#"
           className="flex gap-1 items-center font-bold tracking-wider text-lg lg:text-xl xl:text-2xl rounded-full p-2 hover:bg-slate-300"

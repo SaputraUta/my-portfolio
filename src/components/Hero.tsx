@@ -2,8 +2,8 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <div className="relative flex flex-col md:flex-row gap-5 md:gap-24 mx-10 md:justify-center md:mt-20 lg:mt-24 xl:mt-28">
-      <div className="mx-auto rounded-full shadow-2xl max-w-[270px] max-h-[270px] md:max-w-xs md:max-h-[320px] md:mt-12 lg:mt-4 xl:mt-0">
+    <div className="relative max-h-screen h-screen flex flex-col md:flex-row gap-5 md:gap-24 mx-10 md:justify-center md:pt-32 lg:pt-44 xl:pt-56">
+      <div className="mx-auto rounded-full shadow-2xl max-w-[270px] max-h-[270px] md:max-w-xs md:max-h-[320px] md:mt-12 lg:mt-4 xl:mt-0 -z-10">
         <img
           src="/photo.png"
           className="max-w-[270px] max-h-[270px] md:max-w-xs md:max-h-[320px]"
@@ -34,16 +34,16 @@ export default function Hero() {
           <b>keep learning</b>.
         </p>
       </div>
-      <div className="absolute -z-10 md:left-1/4">
+      <div className="absolute -z-20 md:left-1/4">
         <div className="w-24 h-24 rounded-full bg-blue-300" />
       </div>
-      <div className="absolute -z-10 top-1/3 left-3/4 md:left-[90%]">
+      <div className="absolute -z-20 top-1/3 left-3/4 md:left-[90%]">
         <div className="w-16 h-16 rounded-full bg-blue-300" />
       </div>
-      <div className="hidden md:block absolute -z-10 -bottom-20 left-20">
+      <div className="hidden md:block absolute -z-20 bottom-20 left-20">
         <div className="w-16 h-16 rounded-full bg-blue-300" />
       </div>
-      <div className="hidden md:block absolute -z-10 top-3/4 left-3/4">
+      <div className="hidden md:block absolute -z-20 top-3/4 left-3/4">
         <div className="w-24 h-24 rounded-full bg-blue-300" />
       </div>
     </div>
