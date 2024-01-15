@@ -20,7 +20,7 @@ export default function Skills() {
       });
     };
 
-    const observer = new IntersectionObserver(handleIntersection, options);
+    const observer = new IntersectionObserver(handleIntersection, options);web
 
     if (skillRef.current) {
       observer.observe(skillRef.current);
