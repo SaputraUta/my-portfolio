@@ -92,7 +92,7 @@ export default function Navbar() {
 
       <nav
         className={`hidden fixed top-0 z-50 md:flex justify-center items-center gap-16 lg:gap-24 xl:gap-32 w-full transition-all ease-in-out duration-300 py-8 ${
-          scrolled ? "bg-slate-100 border-b-2 border-blue-900" : ""
+          scrolled ? "bg-slate-100 shadow-lg" : ""
         }`}
       >
         <a

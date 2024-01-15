@@ -7,7 +7,7 @@ interface Props {
 
 export default function ProjectCart({ title, img, body, link }: Props) {
   return (
-    <div className="p-4 rounded-lg border-2 border-slate-700 justify-between flex flex-col bg-white max-w-sm sm:max-w-md items-center">
+    <div className="p-4 rounded-lg border-4 border-slate-700 justify-between flex flex-col bg-white max-w-sm sm:max-w-md items-center">
       <div className="flex flex-col gap-2">
         <h3 className="text-slate-700 text-xl sm:text-2xl md:text-3xl font-medium text-center">
           <a href={link}>{title}</a>
