@@ -36,7 +36,7 @@ export default function ProjectList() {
         img="project3.png"
         link="https://bookself-apps.netlify.app/"
         body="Developed as the final project for IDCamp 2023's
-        Basic-Beginner Front-End Class, my Bookshelf App reflects
+        Basic-Beginner Front-End Class, Bookshelf App reflects
         foundational skills in vanilla JavaScript. The application underscores proficiency in utilizing
         local storage and session storage for efficient data management.
         This project marks a key achievement in my front-end development
