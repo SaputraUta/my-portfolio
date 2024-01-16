@@ -28,7 +28,7 @@ export default function ProjectList() {
       <ProjectCart
         title="Blog App"
         img="project4.png"
-        link="#"
+        link="https://drive.google.com/file/d/1vg_zjVLQIDvbly2y0_VSUQl2lQiH_Q5D/view?usp=sharing"
         body="Blog application built using PHP and using the Laravel framework. Implementing authentication and authorization features to enhance this application. Using MYSQL as DBMS and using Eloquent ORM. Users can upload their posts and be read by all users, users can also upload their own images. Each post has a category, and only admin can add a category."
       />
       <ProjectCart
