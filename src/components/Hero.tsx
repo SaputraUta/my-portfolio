@@ -33,9 +33,9 @@ export default function Hero() {
             />
           </span>
         </p>
-        <p className="text-justify text-slate-700 text-base sm:text-lg md:text-xl tracking-wide font-normal leading-normal">
+        <p className="text-justify text-slate-700 text-base sm:text-lg md:text-xl lg:text-2xl tracking-wide font-normal leading-normal">
           I am a fresh graduate in <b>Electrical Engineering</b> concentrating
-          in <b>Computer Science</b>. I have knowledge of
+          in <b>Computer Engineering</b>. I have knowledge of
           <b> JavaScript, Typescript, PHP</b> and <b>SQL </b>
           languages. I also have knowledge in the use of frameworks using
           <b> NextJs </b>
