@@ -4,6 +4,12 @@ export default function ProjectList() {
   return (
     <div className="mx-10 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10">
       <ProjectCart
+        title="Edoroli"
+        img="project5.jpg"
+        link="https://http://edoroli.vercel.app/"
+        body="An online platform that provides practical and efficient venue reservation information in managing event organizer preparations by providing features to access venue protocols, and book a venue for an event. Created using nextjs, typescript, tailwind and postgresql."
+      />
+      <ProjectCart
         title="Todo Application"
         img="project1.png"
         link="https://todo-apps-ochre.vercel.app/"
