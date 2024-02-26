@@ -6,7 +6,7 @@ export default function ProjectList() {
       <ProjectCart
         title="Edoroli"
         img="project5.jpg"
-        link="https://http://edoroli.vercel.app/"
+        link="https://edoroli.vercel.app/"
         body="An online platform that provides practical and efficient venue reservation information in managing event organizer preparations by providing features to access venue protocols, and book a venue for an event. Created using nextjs, typescript, tailwind and postgresql."
       />
       <ProjectCart
