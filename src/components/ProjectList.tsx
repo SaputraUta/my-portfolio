@@ -5,6 +5,12 @@ export default function ProjectList() {
     <div className="mx-10 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10">
       <ProjectCart
         title="Attendance App"
+        img="project7.jpg"
+        link="https://drive.google.com/file/d/1BjwfP0zpPOAGw-w5fUd3zp1_0ZTZSi3m/view?usp=sharing"
+        body="A feature for maintaining debtor data for Bank Rakyat Indonesia was built on the BRISPOT web platform. This project was developed using CodeIgniter 3, Tailwind, Bootstrap, jQuery, and other technologies. The project was completed as part of my final internship project at Bank Rakyat Indonesia."
+      />
+      <ProjectCart
+        title="Attendance App"
         img="project6.png"
         link="https://drive.google.com/file/d/1Hzd8yx2q8wsc4FYWcbguHKdVyIK_Jm3T/view?usp=sharing"
         body="An Online Attendance Application was developed using Laravel and Bootstrap as part of a PHP-Laravel bootcamp mini project. Four user roles were defined: Admin, Staff, PJ (Penanggung Jawab), and Assistant. Full access to all features was granted to Admin and Staff, including user management, attendance reports, generating attendance code, and others. Limited access was assigned to PJ and Assistant roles, with PJ allowed to generate attendance code and Assistants doesn't. The application was designed to facilitate attendance management with role-based access control."
