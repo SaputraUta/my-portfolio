@@ -4,7 +4,7 @@ export default function ProjectList() {
   return (
     <div className="mx-10 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10">
       <ProjectCart
-        title="Attendance App"
+        title="Maintain Data Debitur - BRISPOT"
         img="project7.jpg"
         link="https://drive.google.com/file/d/1BjwfP0zpPOAGw-w5fUd3zp1_0ZTZSi3m/view?usp=sharing"
         body="A feature for maintaining debtor data for Bank Rakyat Indonesia was built on the BRISPOT web platform. This project was developed using CodeIgniter 3, Tailwind, Bootstrap, jQuery, and other technologies. The project was completed as part of my final internship project at Bank Rakyat Indonesia."
