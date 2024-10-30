@@ -4,6 +4,24 @@ export default function ProjectList() {
   return (
     <div className="mx-10 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10">
       <ProjectCart
+        title="Ongoing: Opera PMS Mobile Web App"
+        img="project9.png"
+        isAccessable={false}
+        body="This ongoing project is a mobile web-based adaptation of the Opera Property Management System (PMS), designed to enhance mobility for property staff. Built using React and ASP.NET Core with a PostgreSQL database, the application utilizes Oracle's Opera Web Self Service (OWS) API in XML format.
+The application focuses on essential Opera PMS features tailored for housekeeping staff. It allows users to update room status, view room lists and their statuses, and add remarks during room cleaning. Additionally, staff can manage payments and charges, and track attendant credits, which indicate the number of rooms a housekeeper has serviced on a given day.
+This streamlined mobile solution provides flexibility for staff to perform their duties efficiently without needing to stay in one location.
+
+"
+      />
+      <ProjectCart
+        title="Product Management System"
+        img="project8.png"
+        isAccessable={false}
+        body="An application built for a product broker that sells to various customers, including hotels and restaurants. This system manages products, customers, and invoices. Key features include tracking total bills, fully paid bills, and outstanding balances across all customers. It also enables invoice generation to itemize outstanding debts with options to save as PDF and print directly. The product notes section includes automated calculations for price, quantity, and total, as well as export and print options for customer records. The revenue feature provides reports on company earnings over selected timeframes, with export and print capabilities.
+
+This project was developed by a team of three: a designer, a backend & frontend developer, and myself as the project manager & frontend developer. It was built using React, Express.js, and MySQL. For confidentiality reasons, access to the application cannot be shared publicly."
+      />
+      <ProjectCart
         title="Maintain Data Debitur - BRISPOT"
         img="project7.jpg"
         link="https://drive.google.com/file/d/1BjwfP0zpPOAGw-w5fUd3zp1_0ZTZSi3m/view?usp=sharing"
@@ -48,18 +66,6 @@ export default function ProjectList() {
         img="project4.png"
         link="https://drive.google.com/file/d/1vg_zjVLQIDvbly2y0_VSUQl2lQiH_Q5D/view?usp=sharing"
         body="Blog application built using PHP and using the Laravel framework. Implementing authentication and authorization features to enhance this application. Using MYSQL as DBMS and using Eloquent ORM. Users can upload their posts and be read by all users, users can also upload their own images. Each post has a category, and only admin can add a category."
-      />
-      <ProjectCart
-        title="BookShelf Application"
-        img="project3.png"
-        link="https://bookself-apps.netlify.app/"
-        body="Developed as the final project for IDCamp 2023's
-        Basic-Beginner Front-End Class, Bookshelf App reflects
-        foundational skills in vanilla JavaScript. The application underscores proficiency in utilizing
-        local storage and session storage for efficient data management.
-        This project marks a key achievement in my front-end development
-        journey, offering hands-on experience in creating interactive web
-        applications."
       />
     </div>
   );

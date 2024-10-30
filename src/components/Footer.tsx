@@ -23,11 +23,11 @@ export default function Footer() {
               Saputra Uta
             </a>
             <a
-              href="https://www.instagram.com/saputrauta_/"
+              href="https://www.instagram.com/saputrautaaa/"
               className="flex items-center hover:text-slate-300 transition text-base sm:text-lg"
             >
               <FaInstagram size={25} className="mr-2" />
-              @saputrauta_
+              @saputrautaaa
             </a>
           </div>
         </div>

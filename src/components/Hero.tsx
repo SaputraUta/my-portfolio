@@ -23,10 +23,10 @@ export default function Hero() {
       </div>
       <div className="text-slate-700 font-bold text-2xl sm:text-3xl lg:text-5xl sm:text tracking-wider text-center flex flex-col gap-5 md:gap-10">
         <p>
-          Hello i'm
+          Hello, I'm
           <span className="text-blue-700">
             <TypeAnimation
-              sequence={[" Saputra!", 1000, " a Web Developer!", 1000]}
+              sequence={[" Saputra!", 1000, " a Software Developer!", 1000]}
               wrapper="span"
               speed={10}
               repeat={Infinity}
@@ -34,16 +34,17 @@ export default function Hero() {
           </span>
         </p>
         <p className="text-justify text-slate-700 text-base sm:text-lg md:text-xl lg:text-2xl tracking-wide font-normal leading-normal">
-          I am a fresh graduate in <b>Electrical Engineering</b> concentrating
-          in <b>Computer Engineering</b>. I have knowledge of
-          <b> JavaScript, Typescript, PHP</b> and <b>SQL </b>
-          languages. I also have knowledge in the use of frameworks using
-          <b> NextJs </b>
-          and also <b>Laravel</b>. I have experience working with <b>teams </b>
-          and <b>individuals </b>
-          so I am experienced in using <b>Git</b> and <b>GitHub</b> as version
-          control. I have <b>high curiosity</b> and <b>passion</b> to{" "}
-          <b>keep learning</b>.
+          I am a Software Developer with a background in{" "}
+          <b>Electrical Engineering</b> and over <b>1 year of experience</b> in
+          software development. I am proficient in{" "}
+          <b>JavaScript, TypeScript,</b> and <b>PHP</b>, and familiar with
+          frameworks like <b>Next.js, Laravel</b>, and <b>CodeIgniter</b>. In
+          addition to developing <b>responsive user interfaces</b>, I am
+          experienced in <b>REST API integration</b>. I have strong{" "}
+          <b>collaboration skills</b> for working in teams, yet I am also
+          effective when working <b>independently</b>. My high <b>curiosity</b>{" "}
+          and passion for <b>continuous learning</b> drive me to keep evolving
+          in the world of technology.
         </p>
       </div>
       <div className="absolute -z-20 md:left-1/4">

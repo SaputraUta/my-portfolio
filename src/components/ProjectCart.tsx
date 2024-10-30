@@ -4,10 +4,11 @@ interface Props {
   title: string;
   img: string;
   body: string;
-  link: string;
+  link?: string;
+  isAccessable?: boolean;
 }
 
-export default function ProjectCart({ title, img, body, link }: Props) {
+export default function ProjectCart({ title, img, body, link, isAccessable = true }: Props) {
   const [isVisible, setIsVisible] = useState(false);
   const projectCartRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -56,12 +57,12 @@ export default function ProjectCart({ title, img, body, link }: Props) {
           {body}
         </p>
       </div>
-      <a
+      {isAccessable && <a
         href={link}
         className="font-bold self-center w-full text-center py-2 text-sm sm:text-base rounded-lg bg-slate-700 text-white hover:bg-slate-800 my-2"
       >
         Check
-      </a>
+      </a>}
     </div>
   );
 }
