@@ -18,10 +18,10 @@ export default function Hero() {
       <div className="mx-auto rounded-full shadow-2xl max-w-[270px] max-h-[270px] md:max-w-xs md:max-h-[320px] md:mt-12 lg:mt-4 xl:mt-0 -z-10">
         <img
           src="/photo.png"
-          className="max-w-[270px] max-h-[270px] md:max-w-xs md:max-h-[320px]"
+          className="max-w-[150px] max-h-[150px] sm:max-w-[200px] sm:max-h-[200px] md:max-w-xs md:max-h-[320px]"
         />
       </div>
-      <div className="text-slate-700 font-bold text-2xl sm:text-3xl lg:text-5xl sm:text tracking-wider text-center flex flex-col gap-5 md:gap-10">
+      <div className="text-slate-700 font-bold text-lg sm:text-xl lg:text-2xl sm:text tracking-wider text-center flex flex-col gap-3 md:gap-5">
         <p>
           Hello, I'm
           <span className="text-blue-700">
@@ -33,7 +33,7 @@ export default function Hero() {
             />
           </span>
         </p>
-        <p className="text-justify text-slate-700 text-base sm:text-lg md:text-xl lg:text-2xl tracking-wide font-normal leading-normal">
+        <p className="text-justify text-slate-700 text-xs sm:text-sm md:text-base lg:text-lg tracking-wide font-normal leading-normal">
           I am a Software Developer with a background in{" "}
           <b>Electrical Engineering</b> and over <b>1 year of experience</b> in
           software development. I am proficient in{" "}
